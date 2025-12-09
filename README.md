@@ -5,6 +5,7 @@ An autonomous mobile security platform built with ROS 2 Jazzy and YOLOv8n11 on R
 ![Project Status](https://img.shields.io/badge/Status-Active-success)
 ![ROS Version](https://img.shields.io/badge/ROS_2-Jazzy-blue)
 ![Platform](https://img.shields.io/badge/Platform-Raspberry_Pi_4-red)
+![Dataset](https://img.shields.io/badge/Dataset-Roboflow-purple)
 
 <br>
 
@@ -92,7 +93,7 @@ D: Turn Right
 Q: Quit
 
 ## Training Performance
-The AI model was trained on a custom dataset for 100 epochs using a Tesla T4 GPU. Below are the performance metrics.
+The AI model was trained on a custom dataset **labeled and preprocessed using Roboflow**. The training ran for 100 epochs on a Tesla T4 GPU. The final model achieves a mAP50 of **57.8%** with an inference speed of approximately 2.7ms per image.
 
 | Metric | Graph | Description |
 | :--- | :--- | :--- |
