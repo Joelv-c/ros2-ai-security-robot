@@ -2,6 +2,17 @@
 An autonomous mobile security platform built with ROS 2 Jazzy and YOLOv8n11 on Raspberry Pi 4. Features real-time person detection, collision avoidance, and distributed node architecture.
 # AI-Powered Security Robot (ROS 2 + GoPiGo3)
 
+![Project Status](https://img.shields.io/badge/Status-Active-success)
+![ROS Version](https://img.shields.io/badge/ROS_2-Jazzy-blue)
+![Platform](https://img.shields.io/badge/Platform-Raspberry_Pi_4-red)
+
+<br>
+
+![Vision System Demo](assets/vision_demo.jpg)
+*Figure 1: The robot's vision system detecting a "Bad Guy" (Person) and a Vehicle in real-time.*
+
+<br>
+
 ## Project Overview
 This project implements a fully autonomous security robot using **ROS 2 Jazzy**, a **Raspberry Pi 4**, and a custom-trained **YOLOv8** artificial intelligence model.
 
