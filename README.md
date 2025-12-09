@@ -85,9 +85,9 @@ The AI model was trained on a custom dataset for 100 epochs using a Tesla T4 GPU
 
 | Metric | Graph | Description |
 | :--- | :--- | :--- |
-| **Confusion Matrix** | ![Confusion Matrix](AI-security-robot/docs/images/confusion_matrix_normalized.png) | Shows how accurately the robot distinguishes between "Bad Guys" and "Vehicles". |
-| **F1 Score** | ![F1 Curve](AI-security-robot/docs/images/BoxF1_curve.png) | Demonstrates the balance between precision (accuracy) and recall (detection rate). |
-| **Training Loss** | ![Loss Graph](AI-security-robot/docs/images/results.png) | Shows the error rate dropping over 100 epochs, proving the model learned successfully. |
+| **Confusion Matrix** | ![Confusion Matrix](docs/images/confusion_matrix_normalized.png) | Shows how accurately the robot distinguishes between "Bad Guys" and "Vehicles". |
+| **F1 Score** | ![F1 Curve](docs/images/BoxF1_curve.png) | Demonstrates the balance between precision (accuracy) and recall (detection rate). |
+| **Training Loss** | ![Loss Graph](docs/images/results.png) | Shows the error rate dropping over 100 epochs, proving the model learned successfully. |
 
 ## Troubleshooting
 
